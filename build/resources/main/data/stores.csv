@@ -1,16 +1,16 @@
-id,name
-1,Store A
-2,Store B
-3,Store C
-4,Store D
-5,Store E
-6,Store F
-7,Store G
-8,Store H
-9,Store I
-10,Store J
-11,Store K
-12,Store L
-13,Store M
-14,Store N
-15,Store O
+id,name,latitude,longitude
+1,Store A,55.7558,37.6173
+2,Store B,55.7558,37.6173
+3,Store C,55.7558,37.6173
+4,Store D,55.7558,37.6173
+5,Store E,55.7558,37.6173
+6,Store F,55.7558,37.6173
+7,Store G,55.7558,37.6173
+8,Store H,55.7558,37.6173
+9,Store I,55.7558,37.6173
+10,Store J,55.7558,37.6173
+11,Store K,55.7558,37.6173
+12,Store L,55.7558,37.6173
+13,Store M,55.7558,37.6173
+14,Store N,55.7558,37.6173
+15,Store O,55.7558,37.6173

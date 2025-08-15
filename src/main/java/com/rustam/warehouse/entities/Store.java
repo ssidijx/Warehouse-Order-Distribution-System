@@ -1,7 +1,7 @@
 package com.rustam.warehouse.entities;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ public class Store {
     private Long id;
 
     private String name;
-    private Long latitude;
-    private Long longitude;
+    private Double latitude;
+    private Double longitude;
 
     @OneToMany(mappedBy = "store")
     private List<Order> listOfOrders;
