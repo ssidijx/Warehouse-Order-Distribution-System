@@ -6,4 +6,5 @@ public interface ProductService {
     Product getProductById(Long id);
     double getProductVolume(Long id);
     double getProductWeight(Long id);
+
 }

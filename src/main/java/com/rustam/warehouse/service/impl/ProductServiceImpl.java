@@ -20,4 +20,6 @@ public class ProductServiceImpl implements ProductService {
     public double getProductWeight(Long id) {
         return 0;
     }
+
+
 }
