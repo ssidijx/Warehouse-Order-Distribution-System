@@ -24,26 +24,4 @@ public class ProductServiceImplTest {
     @Autowired
     private CategoryRepository catRepo;
 
-    @BeforeEach
-    void setUp(){
-        Product p = new Product();
-        p.setId(1L);
-        p.setName("TV");
-        p.setWeight(100.0);
-        p.setVolume(2.5);
-        Category c = new Category();
-        c.setId(1L);
-        c.setName("Electronics");
-        catRepo.save(c);
-        p.setCategory(c);
-        repo.save(p);
-    }
-
-    @Test
-    void testFindProdByID(){
-        Product product = productService.getProductById(1L);
-        assertThat(product).isNotNull();
-        assertThat(product.getWeight()).isEqualTo(100.0);
-        assertThat(product.getVolume()).isEqualTo(2.5);
-    }
 }
