@@ -1,6 +1,7 @@
-package com.rustam.warehouse.service;
+package com.rustam.warehouse.service.impl;
 
 import com.rustam.warehouse.dto.WarehouseResult;
+import com.rustam.warehouse.service.WarehouseOrchestrator;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

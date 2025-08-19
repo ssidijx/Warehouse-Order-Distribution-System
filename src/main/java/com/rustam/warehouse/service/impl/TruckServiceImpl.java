@@ -13,12 +13,12 @@ import java.util.Map;
 public class TruckServiceImpl implements TruckService {
     @Override
     public List<Truck> planTrucks(List<Order> orders) {
-        return List.of();
+        return null;
     }
 
     @Override
     public Map<Truck, List<OrderItem>> distributeOrdersToTrucks(List<Order> orders) {
-        return Map.of();
+        return null;
     }
 
     @Override
